@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello Bulma!</title>
+		<link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+		<link rel="stylesheet" href="helpers.css">
+		<style>
+.hero {
+	background: black url(4.jpg) center / cover;
+}
+		</style>
+	</head>
+	<body>
+		<!--<body style="background: black url(4.jpg) center / cover">--!>
+	<!--style="background: black url(4.jpg) center / cover">--!>
+		<!--<section class="hero is-fullheight">--!>
+<nav class="navbar is-fixed-top is-light" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="image is-64x64" href="https://bulma.io">
+	  <img src="CRYPTHIKE_LOGO.ico" class="navbar-item" style="padding-top: 0.8rem">
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="NAVBAR">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+
+});
+  </script>
+  <div id="NAVBAR" class="navbar-menu">
+	<div class="navbar-start">
+      <a class="navbar-item">
+		<h1 class="title is-5 has-text-black">
+			<strong>Home</strong>
+		</h1>
+      </a>
+      <a class="navbar-item">
+        <h1 class="title is-5 has-text-black">
+			<strong>Documentation</strong>
+		</h1> 
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-item">
+          <h1 class="title is-5 has-text-black">
+			  <strong>More</strong>
+		  </h1> 
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            About
+          </a>
+          <a class="navbar-item">
+            Jobs
+          </a>
+          <a class="navbar-item">
+            Contact
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            Report an issue
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary is-medium is-rounded">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-info is-medium is-rounded">
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="hero is-fullheight">
+</section>
+	</body>
+</html>
