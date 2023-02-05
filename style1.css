@@ -1,0 +1,34 @@
+.navbar-menu{
+    background-color: white;
+
+}
+#first_element{
+    margin-left: 370px;
+}
+/*.main_body{
+    background-image:element("styles/e-commerce-logo.jpg");
+    background-attachment: fixed;
+}*/
+
+/*.main{
+    
+    background-image:element("styles/e-commerce-logo.jpg");
+    background-attachment: fixed;
+
+}
+
+*/
+.body-div{
+    background-attachment: fixed;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+/* first div
+#b-div{
+    
+    background-color:white;
+
+    
+}
+*/
